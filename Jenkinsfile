@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    PIPELINE_USER_CREDENTIAL_ID = 'kugar-credentials'
+    PIPELINE_USER_CREDENTIAL_ID = '	AWS-credential'
     SAM_TEMPLATE = 'sam-app/template.yaml'
     MAIN_BRANCH = 'main'
     TESTING_STACK_NAME = 'sam-app-dev'
